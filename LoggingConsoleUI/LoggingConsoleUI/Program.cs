@@ -11,6 +11,7 @@ namespace LoggingConsoleUI
     {
         static void Main(string[] args)
         {
+            //Main function
             Console.WriteLine("Logging using log4net framework");
             Console.ReadLine();
         }
