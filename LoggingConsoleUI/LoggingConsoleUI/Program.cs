@@ -11,9 +11,10 @@ namespace LoggingConsoleUI
     {
         static void Main(string[] args)
         {
-            //Main function
+            Helper.LoggerManager.logger.Info("Main function started");
             Console.WriteLine("Logging using log4net framework");
             Console.ReadLine();
+
         }
     }
 }
