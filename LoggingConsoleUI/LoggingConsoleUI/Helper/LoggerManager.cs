@@ -10,7 +10,7 @@ namespace LoggingConsoleUI.Helper
 {
      public static class LoggerManager
         {
-            public static readonly ILog logger = LogManager.GetLogger(typeof(LoggerManager));
+        public static readonly ILog logger = LogManager.GetLogger( typeof(LoggerManager));
 
             static LoggerManager()
             {
